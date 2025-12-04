@@ -46,7 +46,6 @@ java-learning/
 Each file focuses on one concept and helps build a strong foundation in Java programming.
 
 🧠 Concepts Covered
-
 This repository includes programs based on:
 
 ✔ Loops
@@ -85,7 +84,6 @@ Prepare for QA Automation & SDET roles
 Develop a solid foundation for frameworks like Selenium, Spring Boot, and Test Automation tools (future repos)
 
 📌 How to Run These Programs
-
 Clone the repository:
 git clone https://github.com/AshakiranMushigeri/java-learning.git
 Open the project in IntelliJ IDEA
@@ -94,7 +92,6 @@ Open any .java file
 Run using the green play button in IntelliJ
 
 ✨ Next Steps (Upcoming Additions)
-
 I will be adding more topics soon, including:
 Arrays
 Methods
@@ -105,7 +102,6 @@ Practice interview questions
 Coding challenges (LeetCode/HackerRank style)
 
 🤝 Connect With Me
-
 If you’d like to follow my learning journey or collaborate, feel free to connect:
 
 LinkedIn: 
