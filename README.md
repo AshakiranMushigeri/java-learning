@@ -47,24 +47,20 @@ Each file focuses on one concept and helps build a strong foundation in Java pro
 
 🧠 Concepts Covered
 This repository includes programs based on:
-
 ✔ Loops
 for loop
 nested loops
 while loop
-
 ✔ Conditional Statements
 if/else
 nested conditions
 switch statements
-
 ✔ Mathematical & Logical Programs
 prime numbers
 factorial
 Fibonacci series
 palindrome logic
 number reversal
-
 ✔ Input Handling
 programs using the Scanner class
 basic user input validation
