@@ -1,0 +1,36 @@
+Syntax of a method:
+
+modifiers returntype name(type var1, type var2)
+{
+
+}
+
+A java method is a collection of statements grouped together to perform an operation. 
+The syntax shown above includes:
+1)Modifier: It defines the access type of the method and it is optional to use
+Access Modifiers                                 Non Access Modifiers
+public(visible to world)                         static
+protected(to package & all subclasses)           final
+private(to class only)                           synchronised
+                                                 abstract
+We can write two modifiers together because every word has a different meaning
+Static modifier : for creating class methods and variables
+Final modifier : for implementing the final classes, methods or variables
+Abstract modifier : for creating abstract methods and classes
+Synchrnized modifier : are used for threads
+
+2)returntype: Method may return a value
+
+3)name: This is method name and it is always written in camel case eg-nameOfMethod
+
+4)arguments
+
+5)method body: defines what the method does with the statements
+
+Method calling:
+For using a method, it should be called. There are two ways in which a method is called :
+method returns a value
+returning nothing (no return value)
+When a program invokes a method, the program control gets transferred to the method called. This called method then returns the control to the caller in two conditions when:
+--->return statement is executed
+--->it reaches method ending closing brace
