@@ -1,0 +1,18 @@
+## Java Recursion Basics
+
+This repository contains simple Java recursion programs commonly asked in
+automation testing and Java interviews.
+
+### Programs Included
+- Print numbers using recursion (forward & backward)
+- Factorial of a number
+- Fibonacci series
+- Sum of digits
+- Reverse a string
+- Count digits in a number
+
+### Key Concepts Covered
+- Base condition
+- Recursive call
+- Call stack
+- Backtracking
