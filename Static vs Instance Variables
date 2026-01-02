@@ -1,0 +1,63 @@
+# Static vs Instance Variables (Java)
+
+This example demonstrates the difference between **static (class-level)** variables and **instance (object-level)** variables in Java.
+
+## Concept
+- `static int i` is **shared** by all objects of the class.
+- `int j` is **unique** to each object.
+
+## Files
+- `D.java` → contains variables and methods
+- `Main.java` → creates multiple objects and calls methods to show behavior
+
+## How it works
+Calling `increment()` increases:
+- `i` for everyone (shared counter)
+- `j` only for the object calling it
+
+## Expected Output
+After obj1.increment() -> i=1, j=1
+After obj2.increment() -> i=2, j=1
+After obj1.increment() again -> i=3, j=2
+
+## Interview Questions
+
+<details>
+<summary><strong>Q1. What happens to a static variable when multiple objects modify it?</strong></summary>
+
+A static variable is shared across all objects of the class.  
+When any object modifies it, the updated value is visible to all other objects.
+
+Example from this project:
+- `i` keeps increasing even when different objects call `increment()`
+- `j` increases only for the object that calls the method
+</details>
+
+<details>
+<summary><strong>Q2. Why is an object not required to access static variables?</strong></summary>
+
+Static variables belong to the class, not to individual objects.  
+They are loaded once in memory when the class is loaded.
+
+Hence, they should be accessed using:
+```java
+ClassName.variableName
+
+## JUnit-Style Test Explanation
+
+Although this project does not include actual JUnit tests, the behavior of the code can be validated using unit-test style scenarios.
+
+### Test Case 1: Static variable is shared across objects
+- Create two objects of class `D`
+- Call `increment()` on both objects
+- Verify that the static variable `i` increases cumulatively
+
+### Test Case 2: Instance variable is unique per object
+- Each object maintains its own copy of instance variable `j`
+- Changes in one object do not affect the other
+
+### Test Case 3: Static and instance variables behave differently
+- Static variable keeps accumulating across calls
+- Instance variable tracks changes per object
+
+These scenarios demonstrate how static and instance behaviors would be validated in a real JUnit test environment.
